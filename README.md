@@ -31,10 +31,10 @@ Install dependencies:
 
 npm install
     ```
-3.  **Start the development server:**[cite: 1]
+Start the development server:
     ```bash
     npm run dev
     ```
 
 ---
-Built with a bit of code and a lot of AI.[cite: 1]
+Built with a bit of code and a lot of AI
