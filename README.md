@@ -1,16 +1,40 @@
-# React + Vite
+⏱️ Workout Timer
+A minimalist and responsive web application to manage recovery times and workout sessions, designed to be fast, intuitive, and distraction-free.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Lightning Project
+I am thrilled to share this project!  
 
-Currently, two official plugins are available:
+The incredible thing is that the entire application was developed and made functional in less than 10 minutes using Google AI Studio.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This experiment demonstrates how powerful the combination of human creativity and artificial intelligence has become in prototyping useful tools in record time.  
 
-## React Compiler
+🛠️ Tech Stack
+React + Vite (for lightning-fast build speed)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+CSS3 (for a clean and mobile-friendly interface)  
 
-## Expanding the ESLint configuration
+Google AI Studio (as a co-pilot for rapid development)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Features
+Clean and high-contrast interface.  
+
+Precise timer for HIIT, Tabata, or classic recovery sessions.  
+
+Fully responsive (perfect for your smartphone at the gym).  
+
+📦 Installation and Local Startup
+Clone the repository:
+
+git clone [your-repo-url]
+
+Install dependencies:
+
+npm install
+    ```
+3.  **Start the development server:**[cite: 1]
+    ```bash
+    npm run dev
+    ```
+
+---
+Built with a bit of code and a lot of AI.[cite: 1]
