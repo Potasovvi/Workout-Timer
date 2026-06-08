@@ -134,9 +134,11 @@ const WorkoutTimer = () => {
   const toggleTimer = () => {
     if (!isActive) {
       requestWakeLock();
-      playSound();
-      // "Sblocca" l'audio sui browser mobile al primo click
-      if (audioRef.current) audioRef.current.load();
+      // Prima sblocca l'audio, poi riproduce
+      if (audioRef.current) {
+        audioRef.current.load();
+        audioRef.current.play().catch(() => {});
+      }
     } else {
       releaseWakeLock();
     }
